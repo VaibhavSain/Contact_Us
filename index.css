@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 54rem;
+    position: relative;
+    width: 100%;
+    background: #482BDF;
+    background: linear-gradient(175deg, rgba(72, 43, 223, 1) 0%, rgba(72, 0, 37, 1) 100%);
+}
+
+main .heading {
+    color: white;
+    font-size: 42px;
+    position: absolute;
+    left: 5rem;
+    top: 8rem;
+}
+
+main .para {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 5rem;
+    top: 12rem;
+    font-weight: 400;
+}
+
+main .box {
+    height: 42rem;
+    width: 34rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 25px;
+    right: 5rem;
+    top: 9rem;
+}
+
+main .box .heading2 {
+    position: absolute;
+    left: 2.50rem;
+    font-weight: 500;
+    top: 2rem;
+}
+
+main .box .inp1 {
+    position: absolute;
+    width: 84%;
+    height: 2.50rem;
+    top: 5rem;
+    left: 2.50rem;
+    font-size: 18px;
+    padding-left: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main .box .inp2 {
+    position: absolute;
+    width: 84%;
+    height: 2.50rem;
+    top: 8.50rem;
+    left: 2.50rem;
+    font-size: 18px;
+    padding-left: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main .box .inp3 {
+    position: absolute;
+    width: 84%;
+    height: 2.50rem;
+    top: 12rem;
+    left: 2.50rem;
+    font-size: 18px;
+    padding-left: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main .box .para1 {
+    position: absolute;
+    left: 2.50rem;
+
+    font-weight: 500;
+    top: 16rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+main .box .email {
+    position: absolute;
+    top: 18rem;
+    left: 2.50rem;
+}
+
+main .box .phone {
+    position: absolute;
+    top: 18rem;
+    left: 9rem;
+}
+
+main .box .textbox {
+    position: absolute;
+    top: 20.50rem;
+    height: 10rem;
+    width: 84%;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    left: 2.50rem;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 20px;
+    
+    
+}
+
+main .box .btn {
+    position: absolute;
+    top:36rem;
+    height: 3rem;
+    width: 28rem;
+    border: none;
+    z-index: 5;
+    color: white;
+    outline: none;
+    background-color: #ff007a;
+    left: 2rem;
+    border-radius: 25px;
+    font-size: 28px;
+}
